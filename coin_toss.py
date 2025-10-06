@@ -1,13 +1,22 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
+# NAME: Nick Allington
+# DATE: 10/6/2025
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
+import random
 
+result1=random.randint(0,100)
+
+print("===== Coin Flipper =====")
+
+if result1 < 51:
+    print("Tails")
+else:
+    print("Heads")
 
 
 
